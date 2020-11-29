@@ -8,7 +8,9 @@
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
-
+.text_color_blue {
+  color: #2f80ed;
+}
 .header {
   height: 100vh;
   min-height: 600px;
@@ -33,7 +35,7 @@
   margin: auto 64px;
   line-height: 96px;
   font-size: 102px;
-  font-weight: semibold;
+  font-weight: 600;
 }
 
 .header__subtitle {
@@ -60,7 +62,6 @@
   right: 0;
   z-index: 1;
 }
-
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
@@ -71,6 +72,98 @@
   right: 0;
 }
 
+.description {
+  display: flex;
+}
+
+.two-columns {
+  width: 80%;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.two-columns__brief {
+  width: 175px;
+  margin: 0;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+}
+
+.two-columns__paragraph {
+  margin: 0;
+  margin-bottom: 30px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+.two-columns__paragraph:last-child {
+  margin-bottom: 0;
+}
+.two-columns__span-accent {
+  font-weight: 600;
+}
+
+
+.digits {
+}
+
+.section-title {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 100px;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 500;
+}
+
+.section-subtitle {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 20px;
+  text-align: center;
+  line-height: 34px;
+  font-size: 24px;
+}
+
+.table {
+  margin: 0 auto;
+  margin-bottom: 100px;
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.table__cell {
+  margin-top: 60px;
+  flex-basis: 250px;
+}
+
+.table__heding {
+  margin: 0;
+  margin-bottom: 20px;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.table__text {
+  line-height: 1.2;
+  font-size: 18px;
+}
+.table__subtext {
+  display: inline-block;
+  margin-top: 20px;
+}
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
