@@ -39,6 +39,7 @@
 
 .header__subtitle {
   width: 388px;
+  margin: 0;
   position: absolute;
   bottom: 30px;
   left: 64px;
@@ -132,6 +133,7 @@
   text-align: center;
   line-height: 34px;
   font-size: 24px;
+  font-weight: normal;
 }
 
 .table {
@@ -157,11 +159,12 @@
 }
 
 .table__text {
+  margin: 0;
   line-height: 1.2;
   font-size: 18px;
 }
 .table__text:not(:last-child) {
-  margin-top: 20px;
+  margin-bottom: 20px;
 }
 /* и элемента с модификатором вида ключ-значение */
 
@@ -193,20 +196,20 @@
   text-align: center;
   line-height: 51px;
   font-size: 36px;
-  font-weight: 700;
+  font-weight: normal;
 }
 
-.feyman__link {
+.feynman__link {
   position: absolute;
   top: 50%;
-  right: 40px;
+  right: 48px;
   color: #2f80ed;
   text-decoration: none;
   line-height: 51px;
   font-size: 36px;
 }
 
-.feyman__link::after {
+.feynman__link::after {
   content: '→';
 }
 
@@ -281,6 +284,7 @@
 }
 
 .footer__author {
+  margin: 0;
   padding: 18px 0;
   line-height: 25px;
   font-size: 18px;
