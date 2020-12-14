@@ -6,6 +6,10 @@
   text-decoration: none;
   line-height: 51px;
   font-size: 36px;
+  transition: opacity 1s;
+}
+.feynman__link:hover {
+  opacity: 0.5;
 }
 .feynman__link::after {
   content: '→';
