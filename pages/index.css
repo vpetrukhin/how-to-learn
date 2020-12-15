@@ -1,4 +1,4 @@
-@import url(../vendor/root/root.css);
+@import url(../vendor/root/normalize.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/rotation/rotation.css);
 
@@ -68,6 +68,7 @@
 
 @import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
 @import url(../blocks/resources/__logo/resources__logo.css);
+@import url(../blocks/resources/__link/resources__link.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__columns/footer__columns.css);
